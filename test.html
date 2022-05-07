@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 id="conbo"></h1>
+<input type="text" id="abc"><br><br>
+<button type="button" onclick="give()">đưa</button>
+<button type="button" onclick="take()">lấy</button>
+<button type="button" onclick="cancel()">cancel</button>
+<button type="button" onclick="none()">không biết</button>
+</body>
+<script>
+    function give() {
+        let abc = prompt("xin chào")
+        console.log(abc)
+    }
+    function take() {
+        let a = document.getElementById("abc").value
+            console.log(confirm(abc))
+    }
+    function cancel(){
+        document.write("hoangtrieu")
+    }
+    function none(){
+        document.getElementById("conbo").innerHTML = "con chó"
+    }
+</script>
+</html>

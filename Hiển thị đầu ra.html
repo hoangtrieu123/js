@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hiển thị đầu ra</title>
+</head>
+<body>
+<input id="demo" type="text">
+<h2 id="i3"></h2>
+<button type="button" onclick="hienthi()">Hiển thị</button>
+<button type="button" onclick="hienthi1()"> Hiển thị 1</button>
+<button type="button" onclick="hienthi2()"> Hiển thị 2</button>
+<button type="button" onclick="hienthi3()"> Hiển thị 3</button>
+<button type="button" onclick="hienthi4()"> Hiển thị 4</button>
+</body>
+<script>
+    function hienthi(){
+        let a = prompt("hello")
+    }
+    function hienthi1(){
+        let a = alert("huhu")
+    }
+    function hienthi2(){
+        let a = document.getElementById("i3").value
+        console.log(confirm(i3))
+    }
+    function hienthi3(){
+        let a = document.write("hoangtrieu")
+    }
+    function hienthi4(){
+        let a= document.getElementById("i3").innerHTML = "abcxyz"
+    }
+</script>
+</html>
